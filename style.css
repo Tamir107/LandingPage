@@ -1,14 +1,22 @@
-.top-header,
-.bottom-header {
+#top-header,
+#bottom-header {
     display: flex;
     justify-content: space-between;
 }
 
-.top-header {
+.white {
+    color: white;
+}
+
+.font-size-18px {
+    font-size: 18px;
+}
+
+#top-header {
     padding-bottom: 80px;
 }
 
-.bottom-header {
+#bottom-header {
     gap: 220px;
 }
 
@@ -22,21 +30,18 @@ h1 {
 .sign-up {
     background-color: #3882F6;
     border-radius: 10px;
-    color: white;
-    font-size: 18px;
     padding: 6px 24px;
     font-weight: 600;
     border-width: 0;
     margin-top: 6px;
 }
 
-.secondary-text {
-    font-size: 18px;
+#secondary-text {
     color: #E5E7EB;
     margin: 9px 0px;
 }
 
-.top-links {
+#top-links {
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -44,7 +49,7 @@ h1 {
     gap: 30px;
 }
 
-.header {
+#header {
     background-color: #1f2937;
     padding: 20px 440px 60px 440px;
 }
@@ -55,18 +60,17 @@ body {
     box-sizing: border-box;
 }
 
-.top-links a {
+#top-links a {
     color: #E5E7EB;
-    font-size: 18px;
     text-decoration: none;
 }
 
-.logo {
+#logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.right-bottom-header img {
+#right-bottom-header img {
     width: 420px;
     height: 250px;
 }
@@ -76,14 +80,12 @@ body {
     height: 170px;
 }
 
-.information {
+#information {
     background-color: white;
-    padding-top: 40px;
-    padding-left: 440px;
-    padding-right: 440px;
+    padding: 40px 440px 0px 440px;
 }
 
-.header-info {
+#header-info {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -91,7 +93,7 @@ body {
     margin-bottom: 55px;
 }
 
-.images-info {
+#images-info {
     display: flex;
     justify-content: space-around;
     gap: 30px;
@@ -106,14 +108,50 @@ body {
     width: 170px;
 }
 
-.quote {
+#quote {
     background-color: #E5E7EB;
-    padding-top: 40px;
-    padding-left: 440px;
-    padding-right: 440px;
+    padding: 140px 500px 100px 500px;
 }
 
-.quote-text {
+#quote-text {
     font-size: 36px;
-    font-weight: light;
+    font-style: italic;
+}
+
+#quote-by {
+    text-align: end;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 20px;
+}
+
+#call-to-action {
+    background-color: white;
+    padding: 100px 440px 100px 440px;
+}
+
+#call-box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px 50px 120px
+}
+
+#action-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#call-box button {
+    border: white 2px solid;
+}
+
+#footer {
+    background-color: #1f2937;
+    padding: 40px 0 40px 0;
+}
+
+#copyright {
+    text-align: center;
 }
